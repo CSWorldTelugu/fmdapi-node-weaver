@@ -1,3 +1,67 @@
+# Contributing to Python-DAPI-Server
+
+
+
+We welcome and appreciate your contribution to **Python-DAPI-Server**. These guidelines will help ensure a smooth and collaborative process for everyone.
+
+
+
+
+## 🙋‍♀️ How Can You Contribute?
+
+
+
+You can help improve the project in the following ways:
+
+
+
+- 🐛 Identifying and reporting bugs
+- 💡 Proposing new features or enhancements
+- 📝 Improving or expanding documentation
+- 🔧 Fixing existing issues
+- 🚀 Developing new features or API endpoints
+
+
+
+---
+
+
+
+## ⚙️ Development Setup
+
+
+
+Follow these steps to get the project running locally:
+
+
+
+```bash
+# Fork the repository and clone it
+git clone https://github.com/your-username/PYTHON-FM-DAPI-WEAVER.git
+cd PYTHON-FM-DAPI-WEAVER
+
+
+
+# Option 1: Using Pipenv (recommended)
+pipenv install
+pipenv shell
+
+
+
+# Option 2: Using pip
+pip install -r requirements.txt
+
+
+
+# Create a new branch for your feature or fix
+git checkout -b feature/your-feature-name
+
+
+
+# Run the development server
+uvicorn main:app --host 127.0.0.1 --port 8000
+ 
+
 # Code of Conduct - fmdapi-node-weaver
 
 ## Our Pledge
